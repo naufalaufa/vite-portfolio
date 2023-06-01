@@ -11,14 +11,15 @@ function About() {
         </h1>
         <div className="text-left sm:text-left">
           <img src={logo} alt="error" />
-          <div className="sm:absolute top-[1200px] right-[10px] p-10 md:ml-96 space-y-5 ">
+          <div className="sm:absolute top-[1200px] right-[10px] p-10 md:ml-96  ">
             <h1 className="text-2xl  font-bold  sm:text-xl  md:text-2xl lg:text-4xl ">
               Mochamad Naufal Aufa Rifqi
             </h1>
             <p className="text-left ">
               Hi my name is mochamad naufal you can call opal LMAO ,
             </p>
-            <div>
+            <p>Interested in technology and design</p>
+            <div className="mt-5">
               <a
                 target="_blank"
                 href={pdefas}
